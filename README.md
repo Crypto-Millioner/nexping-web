@@ -1,11 +1,22 @@
-## 🚀 Quick Install (Termux)
+# NexPing - Private P2P Messenger
+
+Secure messenger with end-to-end encryption and P2P network. Works on Termux and Linux.
+
+![NexPing](https://img.shields.io/badge/Version-1.0.0-blue)
+![Python](https://img.shields.io/badge/Python-3.7%2B-green)
+![Termux](https://img.shields.io/badge/Termux-Supported-brightgreen)
+
+## Quick Install (Termux)
 
 ```bash
+# Update and install Python
+pkg update && pkg upgrade
+pkg install python python-pip
+
 # Install dependencies
-pkg update && pkg install python python-pip -y
 pip install cryptography aiohttp aiosqlite zeroconf
 
-# Download and run NexPing
+# Download NexPing files
 curl -O https://raw.githubusercontent.com/Crypto-Millioner/nexping-web/main/app.py
 curl -O https://raw.githubusercontent.com/Crypto-Millioner/nexping-web/main/server.py
 curl -O https://raw.githubusercontent.com/Crypto-Millioner/nexping-web/main/database.py
@@ -15,3 +26,5 @@ curl -O https://raw.githubusercontent.com/Crypto-Millioner/nexping-web/main/scri
 
 # Start server
 python app.py start
+
+The open: http://localhost:2947/
