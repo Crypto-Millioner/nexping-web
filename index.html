@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexPing Messenger</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1><i class="fas fa-shield-alt"></i> NexPing</h1>
+            <div class="status" id="status">
+                <i class="fas fa-circle online"></i>
+                <span>Connected</span>
+            </div>
+        </header>
+
+        <div class="server-info">
+            <h3>Server: <span id="serverName">Loading...</span></h3>
+        </div>
+
+        <div class="contacts-section">
+            <h2><i class="fas fa-users"></i> Contacts</h2>
+            <div class="contacts-list" id="contactsList">
+                <div class="loading">Loading contacts...</div>
+            </div>
+        </div>
+
+        <div class="chat-section">
+            <div class="chat-header">
+                <h3 id="activeContact">Select a contact to start chatting</h3>
+            </div>
+            <div class="chat-messages" id="chatMessages">
+                <div class="welcome-message">
+                    <i class="fas fa-lock"></i>
+                    <p>End-to-End Encrypted Messaging</p>
+                    <small>Your messages are secure and private</small>
+                </div>
+            </div>
+            <div class="chat-input">
+                <input type="text" id="messageInput" placeholder="Type a message..." disabled>
+                <button id="sendButton" disabled>
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="security-info">
+            <p><i class="fas fa-check-circle"></i> E2EE Enabled</p>
+            <p><i class="fas fa-globe"></i> P2P Network</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
