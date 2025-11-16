@@ -2,7 +2,7 @@
 
 Secure messenger with end-to-end encryption and P2P network. Works on Termux and Linux.
 
-![NexPing](https://img.shields.io/badge/Version-2.0.0-blue)
+![NexPing](https://img.shields.io/badge/Version-1.0.0-blue)
 ![Python](https://img.shields.io/badge/Python-3.7%2B-green)
 ![Termux](https://img.shields.io/badge/Termux-Supported-brightgreen)
 
