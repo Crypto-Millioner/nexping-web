@@ -41,4 +41,11 @@ python app.py version
 # Network status
 python app.py status
 
+ZIP:
+curl -LO https://github.com/Crypto-Millioner/nexping-web/releases/download/v2.0.0/nexping-termux.zip
+unzip nexping-termux.zip
+cd nexping
+pip install cryptography aiohttp aiosqlite zeroconf
+python app.py start
+
 MIT License - feel free to use and modify!
