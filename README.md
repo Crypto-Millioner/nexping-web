@@ -28,3 +28,16 @@ curl -O https://raw.githubusercontent.com/Crypto-Millioner/nexping-web/main/scri
 python app.py start
 
 The open: http://localhost:2947/
+
+# Start server
+python app.py start
+
+# Stop server  
+python app.py stop
+
+# Check version
+python app.py version
+
+# Network status
+python app.py status
+
